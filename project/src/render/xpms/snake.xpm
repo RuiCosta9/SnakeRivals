@@ -1,0 +1,287 @@
+#ifndef SNAKE_SKIN_XPM_H
+#define SNAKE_SKIN_XPM_H
+
+#include <lcom/xpm.h>
+
+/* Cabeca virada para a direita */
+static xpm_row_t snake_head_right_xpm[] = {
+  "16 16 9",
+  ". 0",
+  "K 1",
+  "D 2",
+  "G 10",
+  "M 11",
+  "L 14",
+  "C 15",
+  "E 4",
+  "F 4",
+  ".....KKKKK......",
+  "...KKGGGGKK.....",
+  "..KGGLLLLGGK....",
+  ".KGGLLLLLLGGK...",
+  "KGGLLCCLLLLGGK..",
+  "KGGLLLLLLLLGGK..",
+  "KGGLLLLLLLLGGGK.",
+  "KGGLLLLLLLLGGGKE",
+  "KGGLLLLLLLLGGGKE",
+  "KGGLLLLLLLLGGGK.",
+  "KGGLLLLLLLLGGK..",
+  "KGGLLCCLLLLGGK..",
+  ".KGGLLLLLLGGK...",
+  "..KGGLLLLGGK....",
+  "...KKGGGGKK.....",
+  ".....KKKKK......"
+};
+
+/* Corpo da cobra */
+static xpm_row_t snake_body_xpm[] = {
+  "16 16 8",
+  ". 0",
+  "K 1",
+  "D 2",
+  "G 10",
+  "M 11",
+  "L 14",
+  "T 6",
+  "A 6",
+  ".KKKKKKKKKKKKKK.",
+  "KDDDDDDDDDDDDDDK",
+  "KDMMMMMMMMMMMMMK",
+  "KDMLLLLLLLLLLLMK",
+  "KDMLGGGLLLLLLLMK",
+  "KDMLGGGLLLLLLLMK",
+  "KDMLLLLLLLLLLLMK",
+  "KDMMMMMMATMMMMMK",
+  "KDMMMMMMATMMMMMK",
+  "KDMLLLLLLLLLLLMK",
+  "KDMLLLLLLGGGLLMK",
+  "KDMLLLLLLGGGLLMK",
+  "KDMLLLLLLLLLLLMK",
+  "KDMMMMMMMMMMMMMK",
+  "KDDDDDDDDDDDDDDK",
+  ".KKKKKKKKKKKKKK."
+};
+
+/* Cauda virada para a esquerda */
+static xpm_row_t snake_tail_left_xpm[] = {
+  "16 16 5",
+  ". 0",
+  "K 1",
+  "D 2",
+  "M 11",
+  "L 14",
+  "................",
+  "....KKKKKKKK....",
+  "...KDDDDDDDDK...",
+  "..KDMMMMMMMMMK..",
+  ".KDMLLLLLLLLMDK.",
+  "KDMLLLLLLLLLMMDK",
+  "KDMLLLLLLLLMMDDK",
+  "KDMLLLLLLLMMDDDK",
+  "KDMLLLLLLLMMDDDK",
+  "KDMLLLLLLLLMMDDK",
+  "KDMLLLLLLLLLMMDK",
+  ".KDMLLLLLLLLMDK.",
+  "..KDMMMMMMMMMK..",
+  "...KDDDDDDDDK...",
+  "....KKKKKKKK....",
+  "................"
+};
+
+/* Cabeca virada para a esquerda */
+static xpm_row_t snake_head_left_xpm[] = {
+  "16 16 9",
+  ". 0",
+  "K 1",
+  "D 2",
+  "G 10",
+  "M 11",
+  "L 14",
+  "C 15",
+  "E 4",
+  "F 4",
+  "......KKKKK.....",
+  ".....KKGGGGKK...",
+  "....KGGLLLLGGK..",
+  "...KGGLLLLLLGGK.",
+  "..KGGLLLLCCLLGGK",
+  "..KGGLLLLLLLLGGK",
+  ".KGGGLLLLLLLLGGK",
+  "EKGGGLLLLLLLLGGK",
+  "EKGGGLLLLLLLLGGK",
+  ".KGGGLLLLLLLLGGK",
+  "..KGGLLLLLLLLGGK",
+  "..KGGLLLLCCLLGGK",
+  "...KGGLLLLLLGGK.",
+  "....KGGLLLLGGK..",
+  ".....KKGGGGKK...",
+  "......KKKKK....."
+};
+
+/* Cauda virada para a direita */
+static xpm_row_t snake_tail_right_xpm[] = {
+  "16 16 5",
+  ". 0",
+  "K 1",
+  "D 2",
+  "M 11",
+  "L 14",
+  "................",
+  "....KKKKKKKK....",
+  "...KDDDDDDDDK...",
+  "..KMMMMMMMMMDK..",
+  ".KDMLLLLLLLLMDK.",
+  "KDMMLLLLLLLLLLDK",
+  "KDDMMLLLLLLLLMDK",
+  "KDDDMMLLLLLLLMDK",
+  "KDDDMMLLLLLLLMDK",
+  "KDDMMLLLLLLLLMDK",
+  "KDMMLLLLLLLLLLDK",
+  ".KDMLLLLLLLLMDK.",
+  "..KMMMMMMMMMDK..",
+  "...KDDDDDDDDK...",
+  "....KKKKKKKK....",
+  "................"
+};
+
+/* Cauda virada para baixo */
+static xpm_row_t snake_tail_down_xpm[] = {
+  "16 16 5",
+  ". 0",
+  "K 1",
+  "D 2",
+  "M 11",
+  "L 14",
+  ".....KKKKKK.....",
+  "....KDDDDDDK....",
+  "...KDMDDDDMDK...",
+  "..KMMMMDDMMMMK..",
+  ".KDMLLMMMMLLMDK.",
+  ".KDMLLLMMLLLMDK.",
+  ".KDMLLLLLLLLMDK.",
+  ".KDMLLLLLLLLMDK.",
+  ".KDMLLLLLLLLMDK.",
+  ".KDMLLLLLLLLMDK.",
+  ".KDMLLLLLLLLMDK.",
+  ".KDMLLLLLLLLMDK.",
+  "..KDMLLLLLLMDK..",
+  "...KDMMMMMMDK...",
+  "....KDDDDDDK....",
+  ".....KKKKKK....."
+};
+
+/* Cauda virada para cima */
+static xpm_row_t snake_tail_up_xpm[] = {
+  "16 16 5",
+  ". 0",
+  "K 1",
+  "D 2",
+  "M 11",
+  "L 14",
+  ".....KKKKKK.....",
+  "....KDDDDDDK....",
+  "...KDMMMMMMDK...",
+  "..KDMLLLLLLMDK..",
+  ".KDMLLLLLLLLMDK.",
+  ".KDMLLLLLLLLMDK.",
+  ".KDMLLLLLLLLMDK.",
+  ".KDMLLLLLLLLMDK.",
+  ".KDMLLLLLLLLMDK.",
+  ".KDMLLLLLLLLMDK.",
+  ".KDMLLLMMLLLMDK.",
+  ".KDMLLMMMMLLMDK.",
+  "..KMMMMDDMMMMK..",
+  "...KDMDDDDMDK...",
+  "....KDDDDDDK....",
+  ".....KKKKKK....."
+};
+
+/* Cabeca virada para cima */
+static xpm_row_t snake_head_up_xpm[] = {
+  "16 16 9",
+  ". 0",
+  "K 1",
+  "D 2",
+  "G 10",
+  "M 11",
+  "L 14",
+  "C 15",
+  "E 4",
+  "F 4",
+  "......KEFK......",
+  "......KEFK......",
+  "....KDDDDDK.....",
+  "...KDMMMMMDK....",
+  "..KDMLLLLLLMDK..",
+  ".KDMLGGLLLLMDK..",
+  ".KDMLGGLLLLMDK..",
+  ".KDMLLLLGGLLMDK.",
+  ".KDMLLLLGGLLMDK.",
+  ".KDMLLLLLLLLLDK.",
+  ".KDMLLLLLLLLLDK.",
+  ".KDMLLLLLLLLMDK.",
+  "..KDMMMMMMMMDK..",
+  "...KDDDDDDDK....",
+  "....KKKKKKK.....",
+  "................"
+};
+
+/* Cabeca virada para baixo */
+static xpm_row_t snake_head_down_xpm[] = {
+  "16 16 9",
+  ". 0",
+  "K 1",
+  "D 2",
+  "G 10",
+  "M 11",
+  "L 14",
+  "C 15",
+  "E 4",
+  "F 4",
+  "................",
+  "....KKKKKKK.....",
+  "...KDDDDDDDK....",
+  "..KDMMMMMMMMDK..",
+  ".KDMLLLLLLLLMDK.",
+  ".KDMLLLLLLLLLDK.",
+  ".KDMLLLLLLLLLDK.",
+  ".KDMLLLLGGLLMDK.",
+  ".KDMLLLLGGLLMDK.",
+  ".KDMLGGLLLLMDK..",
+  ".KDMLGGLLLLMDK..",
+  "..KDMLLLLLLMDK..",
+  "...KDMMMMMDK....",
+  "....KDDDDDK.....",
+  "......KEFK......",
+  "......KEFK......"
+};
+
+/* Maca / comida */
+static xpm_row_t snake_apple_xpm[] = {
+  "16 16 7",
+  ". 0",
+  "K 1",
+  "G 10",
+  "R 4",
+  "W 15",
+  "O 6",
+  "S 11",
+  "................",
+  ".......K........",
+  "......KGK.......",
+  ".......KOK......",
+  "....KKKKKKKK....",
+  "...KRRRRRRRRK...",
+  "..KRRWRRRRRRK...",
+  ".KRRRRRRRRRRRK..",
+  ".KRRRRRRRRRRRK..",
+  ".KRRWRRRRRRRK...",
+  ".KRRRRRRRRRRRK..",
+  "..KRRRRRRRRRRK..",
+  "...KRRRRRRRRK...",
+  "....KKKKKKKK....",
+  "................",
+  "................"
+};
+
+#endif
