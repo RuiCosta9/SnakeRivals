@@ -1,0 +1,17 @@
+service io_experiment
+{
+        system
+                DEVIO
+                IRQCTL
+                IOPENABLE
+                ;
+        ipc
+                SYSTEM
+                rs
+                vm
+                pm
+                vfs
+                            ;
+        uid     0
+                ;
+};

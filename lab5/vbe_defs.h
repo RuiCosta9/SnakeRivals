@@ -1,0 +1,22 @@
+#ifndef VBE_DEFS_H
+#define VBE_DEFS_H
+
+#include <lcom/lcf.h>
+
+#define VBE_INTNO 0x10
+
+#define VBE_FUNC_SET_MODE          0x4F02
+#define VBE_FUNC_GET_MODE_INFO     0x4F01
+#define VBE_FUNC_SET_DISPLAY_START 0x4F07
+
+#define VBE_SUCCESS_AL 0x4F
+#define VBE_SUCCESS_AH 0x00
+
+#define VBE_LINEAR_FRAMEBUFFER BIT(14)
+
+#define VBE_SET_DISPLAY_START                  0x0000
+#define VBE_SET_DISPLAY_START_VERTICAL_RETRACE 0x0080
+
+#define VBE_TRIPLE_BUFFER_COUNT 3
+
+#endif
